@@ -13,8 +13,9 @@
             color: white;
             height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
-            align-items: flex-start;
+            align-items: center;
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -25,10 +26,40 @@
             font-size: 72px;
             font-weight: bold;
             margin-top: 17vh;
+            margin-bottom: 2vh; /* Add some space below the text */
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .download-button {
+            border: 2px solid white;
+            border-radius: 25px;
+            background: transparent;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px 20px;
+            margin: 10px 0; /* Space between buttons */
+            text-decoration: none;
+            text-align: center;
+            width: 300px; /* Fixed width for uniform button size */
+            box-sizing: border-box;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+        .download-button:hover {
+            background: white;
+            color: black;
         }
     </style>
 </head>
 <body>
-    <div class="centered-text">Click the buttons to download</div>
+    <div class="centered-text">Click The Buttons To Download</div>
+    <div class="button-container">
+        <a href="link_to_auto_key_presser" class="download-button">Auto Key Presser</a>
+        <a href="link_to_auto_clicker" class="download-button">Auto Clicker</a>
+        <a href="link_to_geometry_dash" class="download-button">Geometry Dash</a>
+    </div>
 </body>
 </html>
