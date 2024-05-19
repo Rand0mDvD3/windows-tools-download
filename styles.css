@@ -1,7 +1,7 @@
 body {
     background-image: url('windows-tools-download/assets/windows-logo.jpg');
-    background-size: cover; /* This will make the image cover the entire background */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-attachment: fixed; /* Makes the background image stay fixed on scroll */
-    background-position: center; /* Center the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
